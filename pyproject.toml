@@ -1,0 +1,22 @@
+[project]
+name = "dataplattformar-maskininl-rning-artificiell-intelligens-de24-abdulrahman-fahmi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.124.0",
+    "google-genai>=1.53.0",
+    "google-generativeai>=0.8.5",
+    "ipykernel>=7.1.0",
+    "lancedb>=0.25.3",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+    "pydantic>=2.12.5",
+    "pydantic-ai[http]>=1.27.0",
+    "python-dotenv>=1.2.1",
+    "scikit-learn>=1.7.2",
+    "sentence-transformers>=5.1.2",
+    "streamlit>=1.52.1",
+    "uvicorn>=0.38.0",
+]
