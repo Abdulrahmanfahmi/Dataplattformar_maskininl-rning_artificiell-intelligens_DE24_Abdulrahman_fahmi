@@ -1,0 +1,45 @@
+# ---- VENV ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- PYTHON ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# ---- JUPYTER ----
+.ipynb_checkpoints/
+
+# ---- ENV FILES ----
+.env
+*.env
+
+# ---- OS FILES ----
+.DS_Store
+
+# ---- PYPROJECT / UV ----
+uv.lock
+
+# ---- EXPORTS ----
+exports/
+*.md
+
+# ---- IMAGES ----
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+
+# ---- PERSONAL DATA ----
+person.json
+
+# ---- LOGS ----
+*.log
+
+# ---- IDE ----
+.vscode/
+.idea/
+
